@@ -281,10 +281,11 @@ ul { list-style: none; }
    О ПРОЕКТЕ
    ===================== */
 .about {
-  background: url('f6c50099-86ed-4846-885b-7d08a59c56b6.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 80px 0;
+  background: #f5f8fc url('Gemini_Generated_Image_j5aanxj5aanxj5aa.png') no-repeat top center;
+  background-size: 110% auto;
+  background-attachment: scroll;
+  padding: 120px 0 80px;
+  min-height: 720px;
 }
 
 .about__inner {
@@ -293,18 +294,18 @@ ul { list-style: none; }
   align-items: flex-start;
 }
 
-.about__left { flex: 0 0 280px; }
+.about__left { flex: 0 0 220px; }
 
 .about__stats {
-  margin-top: 40px;
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 24px;
 }
 
 .stat__value {
   font-family: var(--font-heading);
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   font-weight: 800;
   color: var(--color-primary);
   line-height: 1;
@@ -313,7 +314,7 @@ ul { list-style: none; }
 .stat__label {
   font-family: var(--font-body);
   font-size: 0.9rem;
-  color: #888;
+  color: #6b7b8c;
   margin-top: 4px;
 }
 
