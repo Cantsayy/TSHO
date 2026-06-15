@@ -281,7 +281,9 @@ ul { list-style: none; }
    О ПРОЕКТЕ
    ===================== */
 .about {
-  background: var(--color-bg-light);
+  background: url('f6c50099-86ed-4846-885b-7d08a59c56b6.jpg');
+  background-size: cover;
+  background-attachment: fixed;
   padding: 80px 0;
 }
 
